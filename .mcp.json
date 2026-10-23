@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "lexomni": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "lexomni-mcp@0.2.0"],
+      "env": {
+        "LEXOMNI_WORKSPACE": "_lexomni"
+      }
+    }
+  }
+}

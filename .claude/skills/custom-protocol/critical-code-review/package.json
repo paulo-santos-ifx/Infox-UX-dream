@@ -1,0 +1,21 @@
+{
+  "name": "critical-code-review",
+  "version": "1.0.0",
+  "description": "Rigorous code review skill for identifying technical debt and architectural issues",
+  "private": true,
+  "scripts": {
+    "review": "node scripts/review.js",
+    "review:init": "node scripts/review.js --init",
+    "review:quick": "node scripts/review.js --quick",
+    "analyze": "node scripts/analyze-complexity.js",
+    "validate": "node scripts/validate-review.js",
+    "validate:review": "node scripts/validate-review.js .refactor/review.md"
+  },
+  "keywords": [
+    "code-review",
+    "code-quality",
+    "refactoring",
+    "technical-debt",
+    "complexity"
+  ]
+}
